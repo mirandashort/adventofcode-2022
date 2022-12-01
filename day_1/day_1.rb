@@ -11,3 +11,5 @@ CSV.foreach("/Users/mirandashort/adventofcode-2022/day_1/day_1_input.csv", heade
     next
   end
 end
+
+puts elves.max
