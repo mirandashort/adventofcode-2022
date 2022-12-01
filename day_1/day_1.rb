@@ -12,4 +12,8 @@ CSV.foreach("/Users/mirandashort/adventofcode-2022/day_1/day_1_input.csv", heade
   end
 end
 
+# elf with the most
 puts elves.max
+
+# top 3
+puts elves.sort.last(3).sum
